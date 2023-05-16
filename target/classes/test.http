@@ -1,0 +1,50 @@
+
+### Get All Notes
+GET http://localhost:8080/v1/notes
+
+
+### Add Note
+POST http://localhost:8080/v1/notes
+Content-Type: application/json
+
+{
+  "email": "stevemwangi@gmail.com",
+  "title": "Travelling",
+  "description": "I love singing",
+  "category": "SINGING"
+}
+
+
+### Update Notes
+PUT http://localhost:8080/v1/notes/2
+Content-Type: application/json
+
+{
+  "email": "sammuigai880@gmail.com",
+  "title": "Coding",
+  "description": "I love coding",
+  "category": "SINGING"
+}
+
+### Get All Notes By Email
+GET http://localhost:8080/v1/notes/self/sammuigai880@gmail.com
+
+### Delete Note
+DELETE http://localhost:8080/v1/notes/1
+
+### Get Note By Email and Category
+GET http://localhost:8080/v1/notes/sammuiga00@gmail.com/SINGING
+
+
+
+
+
+
+
+
+
+
+
+
+
+

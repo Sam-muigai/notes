@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "nc",
+      "type": "com.spring.notes.config.NotesConfigurationProperties",
+      "sourceType": "com.spring.notes.config.NotesConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "nc.about",
+      "type": "java.lang.String",
+      "sourceType": "com.spring.notes.config.NotesConfigurationProperties"
+    },
+    {
+      "name": "nc.welcome-message",
+      "type": "java.lang.String",
+      "sourceType": "com.spring.notes.config.NotesConfigurationProperties"
+    }
+  ],
+  "hints": []
+}

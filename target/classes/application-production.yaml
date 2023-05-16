@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:Z3CIsw6fciOmjtRE8bl5@containers-us-west-116.railway.app:6697/railway
+    username: postgres
+    password: Z3CIsw6fciOmjtRE8bl5
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQL81Dialect
+
+nc:
+  about: This is a simple notes CRUD application from Production
+  welcome-message: Welcome to Spring Notes Application from Production
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always

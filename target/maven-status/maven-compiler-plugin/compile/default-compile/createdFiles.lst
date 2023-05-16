@@ -1,0 +1,9 @@
+com\spring\notes\config\NotesConfigurationProperties.class
+com\spring\notes\notes\model\Notes.class
+com\spring\notes\NotesApplication.class
+com\spring\notes\notes\controller\HomeController.class
+com\spring\notes\notes\service\NotesService.class
+com\spring\notes\notes\controller\NotesController.class
+com\spring\notes\notes\repository\NotesRepository.class
+META-INF\spring-configuration-metadata.json
+com\spring\notes\notes\model\Category.class
